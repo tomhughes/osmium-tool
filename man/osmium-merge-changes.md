@@ -21,6 +21,13 @@ must specify the change files on the command line in the correct order from
 oldest to newest. This is because change files from extracts can contain
 multiple different object versions with the same version and timestamp!)
 
+This command can only be used to merge change files from different points in
+time for the planet or for the same extract. It can not be used to merge
+changes from different, possibly overlapping extracts into one larger change
+for the whole area of all extracts, because it will not produce the correct
+result in all cases. This is not a limit of this command, but is due to the
+limited information available in change files.
+
 This commands reads its input file(s) only once and writes its output file
 in one go so it can be streamed, ie. it can read from STDIN and write to
 STDOUT.
