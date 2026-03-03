@@ -63,7 +63,7 @@ STDOUT.
 
 **osmium merge-changes** keeps the contents of all the change files in main
 memory. This will take roughly 10 times as much memory as the files take on
-disk in *.osm.bz2* format.
+disk in *.osc.bz2* format.
 
 
 # EXAMPLES
