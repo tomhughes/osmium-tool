@@ -10,6 +10,13 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+### Fixed
+
+
+## [1.19.1] - 2026-04-07
+
+### Changed
+
 * Various documentation changes.
 
 ### Fixed
@@ -778,7 +785,8 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - Minor updates to documentation and build system
 
 
-[unreleased]: https://github.com/osmcode/osmium-tool/compare/v1.19.0...HEAD
+[unreleased]: https://github.com/osmcode/osmium-tool/compare/v1.19.1...HEAD
+[1.19.1]: https://github.com/osmcode/osmium-tool/compare/v1.19.0...v1.19.1
 [1.19.0]: https://github.com/osmcode/osmium-tool/compare/v1.18.0...v1.19.0
 [1.18.0]: https://github.com/osmcode/osmium-tool/compare/v1.17.0...v1.18.0
 [1.17.0]: https://github.com/osmcode/osmium-tool/compare/v1.16.0...v1.17.0
