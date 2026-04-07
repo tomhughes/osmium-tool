@@ -43,7 +43,7 @@ jobs:
             nlohmann-json3-dev \
             zlib1g-dev
         shell: bash
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/install-from-git
       - uses: ./.github/actions/cmake
       - name: Run clang-tidy

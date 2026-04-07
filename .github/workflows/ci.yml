@@ -111,7 +111,7 @@ jobs:
             make \
             pandoc \
             zlib-devel
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/install-from-git
       - uses: ./.github/actions/cmake
       - uses: ./.github/actions/build
@@ -126,7 +126,7 @@ jobs:
       CXXFLAGS: -Werror
       BUILD_TYPE: Dev
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/install-ubuntu
       - uses: ./.github/actions/install-from-git
       - uses: ./.github/actions/cmake
@@ -153,7 +153,7 @@ jobs:
       BUILD_TYPE: ${{ matrix.build_type }}
     steps:
       - run: brew install boost nlohmann-json
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/install-from-git
       - uses: ./.github/actions/cmake
       - uses: ./.github/actions/build
@@ -178,7 +178,7 @@ jobs:
             nlohmann-json:x64-windows \
             zlib:x64-windows
         shell: bash
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: ./.github/actions/install-from-git
       - uses: ./.github/actions/cmake-windows
       - uses: ./.github/actions/build
