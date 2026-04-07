@@ -10,8 +10,11 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+* Various documentation changes.
+
 ### Fixed
 
+* Use libosmium 2.23.1 which reverted a change that broke updating of extracts.
 
 ## [1.19.0] - 2026-01-18
 
