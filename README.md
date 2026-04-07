@@ -15,7 +15,7 @@ You need a C++17 compliant compiler.
 
 You also need the following libraries:
 
-    Libosmium (>= 2.16.0)
+    Libosmium (>= 2.23.1)
         https://osmcode.org/libosmium
         Debian/Ubuntu: libosmium2-dev
         Fedora/CentOS: libosmium-devel
